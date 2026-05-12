@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Gabriel Mariano</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- Cabeçalho com menu -->
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção Sobre mim -->
+  <section id="sobre" class="sobre">
+    <h1>Sobre mim</h1>
+    <p>Tenho 20 anos, moro em Porto Feliz e gosto de pescar e ler.</p>
+  </section>
+
+  <!-- Seção Formação -->
+  <section id="formacao" class="formacao">
+    <h1>Formação</h1>
+    <ul>
+      <li>Ensino Médio - ETEC</li>
+      <li>Técnico em Administração - ETEC</li>
+    </ul>
+  </section>
+
+  <!-- Seção Portfólio -->
+  <section id="portfolio" class="portfolio">
+    <h1>Portfólio</h1>
+    <p>No momento, não possuo projetos publicados.</p>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="contato">
+    <h1>Entre em Contato</h1>
+    <p>Preencha o formulário abaixo para enviar uma mensagem:</p>
+
+    <form onsubmit="return validarFormulario()">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome"><br><br>
+
+      <label for="email">E-mail:</label><br>
+      <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com"><br><br>
+
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2026 - Gabriel Mariano | Email: gabriel.mariano1497@gmail.com</p>
+  </footer>
+</body>
+</html>
+
